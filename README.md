@@ -30,20 +30,19 @@ Outputs:
 delta: The calculated skin depth in meters.
 skin_depths: The number of skin depths within the given copper thickness.
 Output:
-
 The script prints the calculated skin depth for copper at a frequency of 0.75 MHz in micrometers.
 It also advises the number of skin depths that fit within the given copper thickness.
 Additionally, it suggests that the copper thickness should ideally be less than half of the skin depth for effective current conduction.
+
 Example Output:
 For a 0.75 MHz frequency and a copper thickness of 35 micrometers:
-
-csharp
-Copia codice
 Skin depth at 0.75 MHz for copper is 75.55 micrometers
 Number of skin depths is: 0.46 - Advised copper thickness less than: 37.77 micrometers
+
 Future Improvements:
 Visualization: The matplotlib library can be used to plot the relationship between frequency and skin depth.
 Time Tracking: The time module can be used to measure the performance or execution time of the script.
 Coil Design Extension: The current coil parameters can be expanded to compute inductance, resistance, and other properties based on the geometric configuration.
+
 Usage:
 This script is useful for RF engineers and electrical designers who need to calculate the appropriate copper thickness for coils or traces operating at high frequencies, ensuring optimal current conduction while minimizing losses due to the skin effect.
