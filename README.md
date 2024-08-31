@@ -60,3 +60,7 @@ For a 0.75 MHz frequency and a copper thickness of 35 micrometers:
 ## Usage
 
 This script is useful for RF engineers and electrical designers who need to calculate the appropriate copper thickness for coils or traces operating at high frequencies, ensuring optimal current conduction while minimizing losses due to the skin effect.
+
+## Licence
+
+This project is licensed under the MIT License. See the LICENSE file for details.
